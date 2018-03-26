@@ -1,0 +1,50 @@
+* {
+  margin:0;
+  padding: 0;
+}
+
+/* p {
+  background-color: black;
+} */
+
+ul {
+  padding-top: 5vh;
+}
+
+li {
+  display: inline;
+  padding-left: 5vw;
+  /* padding-top: 10vh; */
+  /* margin-top: 10vh; */
+
+}
+
+.navContainer {
+  background-color: green;
+  width: 100%;
+  height: 15vh;
+}
+
+.logo {
+  /* display: inline; */
+  float: left;
+  width: 25vw;
+  height: 15vh;
+  background-color: black;
+
+}
+.menus {
+  /* display: inline; */
+  float: right;
+  width: 60vw;
+  height: 15vh;
+  background-color: orange;
+}
+
+
+.landingPage-Container {
+  background-color: purple;
+  width: 95vw;
+  height: 85vh;
+  margin: 0 auto;
+}
