@@ -38,110 +38,137 @@
           <div class="title-sync">
             <h1 class="title-text-sync">Customize Your Workout</h1>
           </div>
-          <table>
-            <tr>
-              <td class="table-sync">
 
-                <div id="max-input-sync">
-
+          <div class="sync-container">
+            <div class="sync-max-input">
+              <div class="sync-prompt">
+                <h1 class="white-h1" id="maxes">Enter Maxes </h1>
+              </div>
+              <div class="max-input">
+                <div class="sync-liftName">
+                  <h3 class="form-text">Bench:</h3>
                 </div>
+                <div class="sync-liftInput">
+                  <input class="bigThree-sync" type="number" name="" value="">
+                </div>
+                <div class="sync-liftName">
+                  <h3 class="form-text">Squat:</h3>
+                </div>
+                <div class="sync-liftInput">
+                  <input class="bigThree-sync" type="number" name="" value="">
+                </div>
+                <div class="sync-liftName">
+                  <h3 class="form-text">Deadlift:</h3>
+                </div>
+                <div class="sync-liftInput">
+                  <input class="bigThree-sync" type="number" name="" value="">
+                </div>
+                <div class="fill">
+                </div>
+              </div>
 
-                <h3 class="form-text">Bench:</h3>
-                <input class="bigThree-sync" type="number" name="" value="">
-                <br>
-                <h3 class="form-text">Squat:</h3>
-                <input class="bigThree-sync" type="text" name="" value="">
-                <br>
-                <h3 class="form-text">Deadlift:</h3>
-                <input class="bigThree-sync" type="text" name="" value="">
+            </div>
+            <div class="sync-exercise-choice">
+              <div class="sync-prompt">
+                <h1 class="white-h1">Pick Accessory Work</h1>
+              </div>
+              <div class="sync-a-name">
+                <!-- Back Input -->
+                <h3 class="form-a-name">Back</h3>
+              </div>
+              <div class="sync-liftInput">
+                <select class="sync-dropdown" name="accessory-upper" style="display:center;">
+                  <option class="centerDropdown" value="1"><span class="center">Dumbell Row</span></option>
+                  <option class="centerDropdown" value="2">Weighted Pull-Ups</option>
+                  <option class="centerDropdown" value="3">Pulldowns</option>
+                  <option class="centerDropdown" value="4">Machine Rows</option>
+                </select>
+              </div>
+              <!-- Shoulder Input -->
+              <div class="sync-a-name">
+                <h3 class="form-a-name">Shoulder</h3>
+              </div>
+              <div class="sync-liftInput">
+                <select class="sync-dropdown" name="accessory-upper" style="display:center;">
+                  <option class="centerDropdown" value="1">Seated Dumbell OH Pres</option>
+                  <option class="centerDropdown" value="2">Standing D.O.P</option>
+                  <option class="centerDropdown" value="3">Military Press</option>
+                  <option class="centerDropdown" value="4">Lateral Dumbell Raises</option>
+                </select>
+              </div>
+              <!-- Bicep Input -->
+              <div class="sync-a-name">
+                <h3 class="form-a-name">Bicep</h3>
+              </div>
+              <div class="sync-liftInput">
+                <select class="sync-dropdown" name="accessory-upper" style="display:center;">
+                  <option class="centerDropdown" value="1">Seated Dumbell OH Pres</option>
+                  <option class="centerDropdown" value="2">Standing D.O.P</option>
+                  <option class="centerDropdown" value="3">Military Press</option>
+                  <option class="centerDropdown" value="4">Lateral Dumbell Raises</option>
+                </select>
+              </div>
 
-              </td>
-              <td class="table-sync">
-                <!-- Back Accessory Exercise -->
-              <label for="sel1"><p class="testText">Back Accessory Exercise</p></label>
-                <select class="dropdown" name="accessory-upper">
-                  <option value="1">Dumbell Row</option>
-                  <option value="2">Weighted Pull-Ups</option>
-                  <option value="3">Pulldowns</option>
-                  <option value="4">Machine Rows</option>
+              <!-- Leg Input1 -->
+              <div class="sync-a-name">
+                <h3 class="form-a-name">Leg1</h3>
+              </div>
+              <div class="sync-liftInput">
+                <select class="sync-dropdown" name="accessory-upper" style="display:center;">
+                  <option class="centerDropdown" value="1">Seated Dumbell OH Pres</option>
+                  <option class="centerDropdown" value="2">Standing D.O.P</option>
+                  <option class="centerDropdown" value="3">Military Press</option>
+                  <option class="centerDropdown" value="4">Lateral Dumbell Raises</option>
                 </select>
-                <!-- Shoulder Accessory Exercise -->
-              <label for="sel1"><p class="testText">Shoulder Accessory Exercise</p></label>
-                <select class="dropdown" name="accessory-upper">
-                  <option value="1">Seated Dumbell OH Press</option>
-                  <option value="2">Standing D.O.P</option>
-                  <option value="3">Military Press</option>
-                  <option value="4">Lateral Dumbell Raises</option>
+              </div>
+              <!-- Leg Input2 -->
+              <div class="sync-a-name">
+                <h3 class="form-a-name">Leg2</h3>
+              </div>
+              <div class="sync-liftInput">
+                <select class="sync-dropdown" name="accessory-upper" style="display:center;">
+                  <option class="centerDropdown" value="1">Seated Dumbell OH Pres</option>
+                  <option class="centerDropdown" value="2">Standing D.O.P</option>
+                  <option class="centerDropdown" value="3">Military Press</option>
+                  <option class="centerDropdown" value="4">Lateral Dumbell Raises</option>
                 </select>
-                <!-- Bicep Accessory Exercise -->
-              <label for="sel1"><p class="testText">Bicep Accessory Exercise</p></label>
-                <select class="dropdown" name="accessory-upper">
-                  <option value="1">Dumbell Curls</option>
-                  <option value="2">Barbell Curls</option>
-                  <option value="3">Dumbell Hammer Curl</option>
-                  <option value="4">Anything with Pulleys/machines</option>
-                </select>
-                <!-- General Accessory Exercise -->
-              <label for="sel1"><p class="testText">General Accessory Exercise</p></label>
-                <select class="dropdown" name="accessory-upper">
-                  <option value="1">Dumbell Curls</option>
-                  <option value="2">Barbell Curls</option>
-                  <option value="3">Dumbell Hammer Curl</option>
-                  <option value="4">Anything with Pulleys/machines</option>
-                </select>
-                <!-- Leg Accessory Exercise -->
-              <label for="sel1"><p class="testText">Leg Accessory Exercise</p></label>
-                <select class="dropdown" name="accessory-upper">
-                  <option value="1">Dumbell Curls</option>
-                  <option value="2">Barbell Curls</option>
-                  <option value="3">Dumbell Hammer Curl</option>
-                  <option value="4">Anything with Pulleys/machines</option>
-                </select>
-                <!-- Leg Accessory Exercise -->
-              <label for="sel1"><p class="testText">Leg Accessory Exercise</p></label>
-                <select class="dropdown" name="accessory-upper">
-                  <option value="1">Dumbell Curls</option>
-                  <option value="2">Barbell Curls</option>
-                  <option value="3">Dumbell Hammer Curl</option>
-                  <option value="4">Anything with Pulleys/machines</option>
-                </select>
+              </div>
 
 
-              </td>
-              <td class="table-sync">
-                <p>Day you start the program</p>
-                <p>Deload Week Radio Buttons</p>
-                <button type="submit" name="button">Submit</button>
-              </td>
-            </tr>
-            <!-- <tr>
-              <td></td>
-              <td class="table-submit">submit</td>
-              <td></td>
-              <td></td>
-            </tr> -->
-          </table>
-          <!-- <div id="maxes-sync">
-            <p>Max data</p>
+
+
+
+
+
+
+            </div>
+            <div class="sync-date-other">
+              <div class="sync-prompt">
+                <h1 class="white-h1" id="extras">Extras</h1>
+              </div>
+              <div class="sync-liftName">
+                <h3 class="form-text">Kg/Lbs</h3>
+              </div>
+              <div class="sync-radio">
+                <select class="sync-dropdown" name="accessory-upper" style="display:center;">
+                  <option class="centerDropdown" value="1">Kg</option>
+                  <option class="centerDropdown" value="2">Lbs</option>
+                </select>
+              </div>
+              <h3 class="form-text" id="start">Start Date</h3>
+              <div class="date-input">
+                <input type="date" id="date" value="1980-08-26">
+              </div>
+
+              <div id="submit">
+                <button type="submit" class="subButton" name="button">Submit</button>
+              </div>
+
+            </div>
+
           </div>
-          <div class"startDate-sync">
-            <p>Hello</p>
-          </div> -->
-          <!-- <div class="exercises-sync">
-            <p>Exercises</p>
-          </div> -->
-          <!-- <div class="submit-sync">
-            <p class="submit-sync">Hello</p>
-          </div> -->
-          <!-- <form>
-            First name:<br>
-            <input type="text" name="firstname" value="Mickey">
-            <br>
-            Last name:<br>
-            <input type="text" name="lastname" value="Mouse">
-            <br><br>
-            <input type="submit" value="Submit">
-          </form> -->
+
+
         </div>
 
       </div>
