@@ -1,11 +1,21 @@
 * {
   margin:0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* p {
   background-color: black;
 } */
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+a:hover {
+  font-weight: 500;
+}
 
 ul {
   padding-top: 5vh;
@@ -13,14 +23,20 @@ ul {
 
 li {
   display: inline;
-  padding-left: 5vw;
+  padding-left: 4vw;
+  font-size: 20px;
   /* padding-top: 10vh; */
   /* margin-top: 10vh; */
+}
 
+li:hover {
+  font-weight: 500;
 }
 
 .navContainer {
-  background-color: green;
+  /* background-color: green; */
+  /* background-color: white; */
+  background-color: white;
   width: 100%;
   height: 15vh;
 }
@@ -36,15 +52,52 @@ li {
 .menus {
   /* display: inline; */
   float: right;
-  width: 60vw;
+  width: 75vw;
   height: 15vh;
-  background-color: orange;
+  background-color: #EAEAEA;
 }
 
 
 .landingPage-Container {
-  background-color: purple;
+  /* background-color: #b668dd; */
+  /* background-color: #df58f4; */
+  /* background-color: #9932CC; */
+  /* background-color: #b668dd; */
+  /* background-color: #a049ed; */
+  background-color: #EAEAEA;
+  background-color: #808080;
+
   width: 95vw;
   height: 85vh;
   margin: 0 auto;
+  /* margin-top: 5vh;   */
+}
+
+.workoutOrientation{
+  background-color: white;
+  width:95%;
+  height: 97%;
+  margin: 0 auto;
+}
+
+
+#logoText {
+  font-size: 40px;
+   color:white;
+   padding-left:9vw;
+}
+
+#logoP {
+  padding-top: 4vh;
+}
+
+#formContainer {
+  width: 85vw;
+  height: 80vh;
+  background-color: #DDDBE5;
+  margin: 0 auto;
+  /* border: 5px solid #534A7F; */
+  border: 5px solid black;
+  /* margin-top: 5vh; */
+  padding-top: 2vh;
 }

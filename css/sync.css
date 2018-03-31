@@ -1,0 +1,100 @@
+.title-sync{
+  height: 10%;
+  width:100%;
+  /* background-color: blue; */
+}
+
+.title-text-sync {
+  font-weight: 300;
+  margin: 0 auto;
+  padding-left: 28vw;
+  padding-top: 1vh;
+
+}
+
+.exercises-sync {
+  background-color: orange;
+  display: inline;
+  float: right;
+  height: 80%;
+  width: 33%;
+}
+
+.submit-sync {
+  bottom: 0;
+  /* float:left; */
+  display: inline;
+  height: 25vh;
+  width: 100%;
+  background-color: blue;
+  z-index: 3;
+}
+
+.startDate-sync {
+  display: inline;
+  height: 100%;
+  width: 30%;
+  background-color: purple;
+  margin: 0 auto;
+  /* z-index: 4; */
+}
+
+#maxes-sync {
+  /* float: left; */
+  /* margin: 0 auto; */
+  padding: 0;
+  background-color: black;
+  width: 33%;
+  height: 90%;
+  margin: 0;
+}
+
+.maxes-sync {
+  /* float: left; */
+  display: inline;
+  height: 80%;
+  width: 33%;
+  /* background-color: green; */
+}
+
+table {
+  width: 81vw;
+  height: 70vh;
+}
+
+.table-sync {
+  height: 95%;
+  width: 33%;
+  border: 5px solid black;
+  padding-left: 3vw;
+  /* background-color: green; */
+}
+
+.table-submit {
+  margin: 0 auto;
+  padding-left: 10vw;
+}
+
+.form-text {
+  display: inline;
+  font-weight: 300;
+}
+
+#max-input-sync {
+  background-color: purple;
+  width: 100%;
+  height: 20vh;
+}
+
+
+select {
+  margin-bottom: 5vh;
+}
+
+
+
+
+
+
+
+/* dasf */
