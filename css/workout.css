@@ -1,0 +1,107 @@
+* {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#workout-day-name {
+  background-color: White;
+  width: 79.7%;
+  height: 8vh;
+  padding-left: 5vw;
+  padding-top: 3vh;
+}
+
+#workout-text-title {
+  font-size: 32px;
+  font-weight: 500;
+
+}
+
+#week {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+#day {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+#weekDescription, #description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+
+
+.workout-div {
+  background-color: white;
+  height: 67vh;
+  width: 85%;
+}
+
+  /* .black-cell {
+    background-color: black;
+  } */
+
+
+/* .workout-table {
+  border: 2px solid black;
+
+} */
+
+table,td, td {
+    border: 2px solid black;
+    /* padding: 8px; */
+    /* padding-left: */
+    height: 15px; ;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.sub-menu-lifting {
+  top: 120.1px;
+  position: absolute;
+  /* background-color: brown; */
+  height: 80px;
+  width: 14.2vw;
+  /* float:right; */
+  right: 2.5vw;
+}
+
+.week1plan {
+  background-color: white;
+  width: 100%;
+  height: 13.2vh;
+  border: 1px solid black;
+  font-weight: 500;
+}
+
+.nice-black-text {
+  font-weight: 200;
+  padding-left: 3vw;
+  padding-top: 2vw;
+  margin-top: 1vh;
+}
+
+.nice-black-text:hover {
+  font-weight: 400;
+}
+
+#addpadding-top {
+  margin-top: 11vh;
+}
+
+
+.landingPage-Container {
+  background-color: white;
+}
+
+
+
+
+
+
+/* PlaceHolder */

@@ -95,9 +95,10 @@ li:hover {
   width: 85vw;
   height: 80vh;
   background-color: #DDDBE5;
+  background-color: white;
   margin: 0 auto;
   /* border: 5px solid #534A7F; */
-  border: 5px solid black;
+  /* border: 5px solid black; */
   /* margin-top: 5vh; */
   padding-top: 2vh;
 }
