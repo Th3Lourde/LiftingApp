@@ -76,14 +76,14 @@ function week1Day1(){
   $('.excercise-3-1-reps').text(' ');
   $('.excercise-3-2-reps').text(' ');
   makeBlack('.exercise-3-1-reps');
-  $('.excercise-3-3-reps').text(' ');
+  $('.excercise-3-3-reps').text('No Accessory');
   $('.excercise-3-4-reps').css('background-color', 'black');
 
   $('.excercise-4-name').text(selected[7]);
   // $('.excercise-4-name').text(selected[6]);
   $('.excercise-4-1-reps').text(' ');
   $('.excercise-4-2-reps').text(' ');
-  $('.excercise-4-3-reps').text(' ');
+  $('.excercise-4-3-reps').text(' No Accessory ');
   $('.excercise-4-4-reps').css('background-color', 'black');
 
 
@@ -106,6 +106,28 @@ function week1Day1(){
   $('.excercise-2-3-weight').css("background-color","black");
   $('.excercise-2-3-reps').css("background-color","black");
 
+  $('.excercise-3-1-reps').css("background-color","white");
+  $('.excercise-3-2-reps').css("background-color","white");
+  $('.excercise-3-3-reps').css("background-color","white");
+  $('.excercise-3-4-reps').css("background-color","white");
+  $('.excercise-3-4-reps').css("background-color","white");
+  $('.excercise-4-4-reps').css("background-color","white");
+  $('.excercise-3-1-weight').css("background-color","white");
+  $('.excercise-3-2-weight').css("background-color","white");
+  $('.excercise-3-3-weight').css("background-color","white");
+  $('.excercise-3-4-weight').css("background-color","black");
+  $('.excercise-4-4-weight').css("background-color","black");
+  $('.excercise-4-4-reps').css("background-color","black");
+  $('.excercise-3-4-reps').css("background-color","black");
+  $('.excercise-2-4-reps').css("background-color","black");
+  $('.excercise-2-4-weight').css("background-color","black");
+  $('.excercise-4-1-weight').css("background-color","white");
+  $('.excercise-4-1-reps').css("background-color","white");
+  $('.excercise-4-2-weight').css("background-color","white");
+  $('.excercise-4-2-reps').css("background-color","white");
+  $('.excercise-4-3-weight').css("background-color","white");
+  $('.excercise-4-3-reps').css("background-color","white");
+
 
 
 }
@@ -120,22 +142,22 @@ function week1Day2(){
 
   // Changes the name of the first list
   $('.excercise-1-name').text('Bench');
-  number = Math.round(liftingNumber(selected[0], .725 ));
+  number = Math.round(liftingNumber(selected[0], .85 ));
   // Changes the weight that will be lifted
   $('.excercise-1-1-weight').text(number);
-  number = Math.round(liftingNumber(selected[0], .775) );
+  number = Math.round(liftingNumber(selected[0], .85) );
   $('.excercise-1-2-weight').text(number);
-  number = Math.round(liftingNumber(selected[0], .80 ));
+  number = Math.round(liftingNumber(selected[0], .85 ));
   $('.excercise-1-3-weight').text(number);
-  number = Math.round(liftingNumber(selected[0], .775) );
+  number = Math.round(liftingNumber(selected[0], .85) );
   $('.excercise-1-4-weight').text(number);
 
 
   // Changes the rep scheme
-  $('.excercise-1-1-reps').text('x10');
-  $('.excercise-1-2-reps').text('x8');
-  $('.excercise-1-3-reps').text('x6-8 ');
-  $('.excercise-1-4-reps').text('x8');
+  $('.excercise-1-1-reps').text('x4-6');
+  $('.excercise-1-2-reps').text('x4-6');
+  $('.excercise-1-3-reps').text('x4-6');
+  $('.excercise-1-4-reps').text('x4-6');
 
   // Changes the name of the first list
   // Back Accessory
@@ -151,8 +173,8 @@ function week1Day2(){
 
 
   // Changes the rep scheme
-  $('.excercise-2-1-reps').text('x10');
-  $('.excercise-2-2-reps').text('x8');
+  $('.excercise-2-1-reps').text('x6');
+  $('.excercise-2-2-reps').text('x6');
   $('.excercise-2-3-reps').text('x6');
   $('.excercise-2-3-reps').css("background-color","white");
   $('.excercise-2-4-reps').text('x6');
@@ -168,8 +190,8 @@ function week1Day2(){
 
 
   // Changes the rep scheme
-  $('.excercise-3-1-reps').text('x10');
-  $('.excercise-3-2-reps').text('x8');
+  $('.excercise-3-1-reps').text('x6');
+  $('.excercise-3-2-reps').text('x6');
   $('.excercise-3-3-reps').text('x6');
   $('.excercise-3-4-reps').text('x6');
 
@@ -177,16 +199,21 @@ function week1Day2(){
   $('.excercise-4-name').text(selected[5]);
   // Changes the weight that will be lifted
   $('.excercise-2-1-weight').text(" ");
-  $('.excercise-2-2-weight').text(" ");
+  $('.excercise-2-2-weight').css("background-color","white");
+  $('.excercise-2-2-reps').css("background-color","white");
   $('.excercise-2-3-weight').text(" ");
   $('.excercise-2-4-weight').text(" ");
 
 
   // Changes the rep scheme
-  $('.excercise-4-1-reps').text('x10');
-  $('.excercise-4-2-reps').text('x8');
+  $('.excercise-4-1-reps').text('x6');
+  $('.excercise-4-1-reps').css("background-color","white");
+  $('.excercise-4-2-reps').text('x6');
+  $('.excercise-4-2-reps').css("background-color","white");
   $('.excercise-4-3-reps').text('x6');
+  $('.excercise-4-3-reps').css("background-color","white");
   $('.excercise-4-4-reps').text('x6');
+  $('.excercise-4-4-reps').css("background-color","white");
 
   // Make some things not black
   $('.excercise-1-2-weight').css("background-color","white");
@@ -197,9 +224,26 @@ function week1Day2(){
   $('.excercise-1-4-reps').css("background-color","black");
 
   $('.excercise-4-4-weight').css("background-color","black");
+  $('.excercise-4-1-weight').css("background-color","white");
+  $('.excercise-4-2-weight').css("background-color","white");
+  $('.excercise-4-3-weight').css("background-color","white");
   $('.excercise-4-4-reps').css("background-color","black");
   $('.excercise-3-4-weight').css("background-color","black");
   $('.excercise-3-4-reps').css("background-color","black");
+  $('.excercise-2-4-weight').css("background-color","black");
+  $('.excercise-2-4-reps').css("background-color","black");
+  $('.excercise-1-4-weight').css("background-color","black");
+  $('.excercise-1-4-reps').css("background-color","black");
+
+
+
+
+  $('.excercise-3-1-weight').css("background-color","white");
+  $('.excercise-3-1-reps').css("background-color","white");
+  $('.excercise-3-2-weight').css("background-color","white");
+  $('.excercise-3-2-reps').css("background-color","white");
+  $('.excercise-3-3-weight').css("background-color","white");
+  $('.excercise-3-3-reps').css("background-color","white");
   $('.excercise-2-4-weight').css("background-color","black");
   $('.excercise-2-4-reps').css("background-color","black");
   $('.excercise-1-4-weight').css("background-color","black");
@@ -245,9 +289,9 @@ function week1Day3(){
   $('.excercise-2-2-weight').text(" ");
 
   $('.excercise-2-3-weight').text(" ");
-  $('.excercise-2-3-weight').css("background-color","white");
+  $('.excercise-2-3-weight').css("background-color","black");
   $('.excercise-2-4-weight').text(" ");
-  $('.excercise-2-4-weight').css("background-color","white");
+  $('.excercise-2-4-weight').css("background-color","black");
 
 
   // Changes the rep scheme
@@ -305,6 +349,22 @@ function week1Day3(){
   $('.excercise-4-4-reps').css("background-color","black");
   $('.excercise-3-4-weight').css("background-color","black");
   $('.excercise-3-4-reps').css("background-color","black");
+  $('.excercise-4-1-weight').css("background-color","white");
+  $('.excercise-4-1-reps').css("background-color","white");
+  $('.excercise-4-2-weight').css("background-color","white");
+  $('.excercise-4-2-reps').css("background-color","white");
+  $('.excercise-4-3-weight').css("background-color","white");
+  $('.excercise-4-3-reps').css("background-color","white");
+  $('.excercise-3-1-weight').css("background-color","white");
+  $('.excercise-3-1-reps').css("background-color","white");
+  $('.excercise-3-2-weight').css("background-color","white");
+  $('.excercise-3-2-reps').css("background-color","white");
+  $('.excercise-3-3-weight').css("background-color","white");
+  $('.excercise-3-3-reps').css("background-color","white");
+  $('.excercise-2-3-weight').css("background-color","white");
+  $('.excercise-2-3-reps').css("background-color","white");
+  $('.excercise-2-2-weight').css("background-color","white");
+  $('.excercise-2-2-reps').css("background-color","white");
 
 
 }
@@ -313,7 +373,7 @@ function week1Day4(){
   number = Math.round(liftingNumber(selected[0], .80 ));
   // alert(number);
   $('#day').text('Day 5');
-  $('#description').text(' - Upper Body');
+  $('#description').text('No Workout');
 
   // Changes the name of the first list
   $('.excercise-1-name').text('Bench')
@@ -419,30 +479,33 @@ function week1Day5(){
 
   // Changes the rep scheme
   $('.excercise-2-1-reps').text('x8');
-  $('.excercise-2-2-reps').text('x8');
+  $('.excercise-2-2-reps').css("background-color","black");
   $('.excercise-2-3-reps').text('x8');
-  $('.excercise-2-3-reps').css("background-color","white");
+  $('.excercise-2-3-reps').css("background-color","black");
   $('.excercise-2-4-reps').text('x6');
-  $('.excercise-2-4-reps').css("background-color","white");
+  $('.excercise-2-4-reps').css("background-color","black");
 
 
   $('.excercise-3-name').text("Optional 1");
   // Changes the weight that will be lifted
   $('.excercise-2-1-weight').text(" ");
-  $('.excercise-2-2-weight').text(" ");
+  $('.excercise-2-2-weight').css("background-color","black");
   $('.excercise-2-3-weight').text(" ");
-  $('.excercise-2-3-weight').css("background-color","white");
+  $('.excercise-2-3-weight').css("background-color","black");
   $('.excercise-2-4-weight').text(" ");
-  $('.excercise-2-4-weight').css("background-color","white");
+  $('.excercise-2-4-weight').css("background-color","black");
 
 
   // Changes the rep scheme
-  $('.excercise-3-1-reps').text('x12');
-  $('.excercise-3-2-reps').text('x12');
-  $('.excercise-3-3-reps').text('x8');
-  $('.excercise-3-4-reps').text('x6');
+  $('.excercise-3-1-reps').css("background-color","black");
+  $('.excercise-3-2-reps').css("background-color","black");
+  $('.excercise-3-3-reps').css("background-color","black");
+  $('.excercise-3-4-reps').css("background-color","black");
   $('.excercise-3-4-reps').css("background-color","black");
   $('.excercise-4-4-reps').css("background-color","black");
+  $('.excercise-3-1-weight').css("background-color","black");
+  $('.excercise-3-2-weight').css("background-color","black");
+  $('.excercise-3-3-weight').css("background-color","black");
   $('.excercise-3-4-weight').css("background-color","black");
   $('.excercise-4-4-weight').css("background-color","black");
   $('.excercise-2-4-reps').css("background-color","black");
@@ -453,15 +516,19 @@ function week1Day5(){
   // Changes the weight that will be lifted
   $('.excercise-2-1-weight').text(" ");
   $('.excercise-2-2-weight').text(" ");
-  $('.excercise-2-3-weight').text(" ");
-  $('.excercise-2-4-weight').text(" ");
+  $('.excercise-2-3-weight').css("background-color","black");
+  $('.excercise-2-4-weight').css("background-color","black");
 
 
   // Changes the rep scheme
-  $('.excercise-4-1-reps').text('x8');
-  $('.excercise-4-2-reps').text('x8');
-  $('.excercise-4-3-reps').text('x8');
-  $('.excercise-4-4-reps').text('x6');
+  $('.excercise-4-1-reps').css("background-color","black");
+  $('.excercise-4-2-reps').css("background-color","black");
+  $('.excercise-4-3-reps').css("background-color","black");
+  $('.excercise-4-4-reps').css("background-color","black");
+  $('.excercise-4-1-weight').css("background-color","black");
+  $('.excercise-4-2-weight').css("background-color","black");
+  $('.excercise-4-3-weight').css("background-color","black");
+  $('.excercise-4-4-weight').css("background-color","black");
 
 }
 
